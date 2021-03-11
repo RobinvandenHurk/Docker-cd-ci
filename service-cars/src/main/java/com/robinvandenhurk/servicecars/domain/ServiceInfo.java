@@ -3,9 +3,11 @@ package com.robinvandenhurk.servicecars.domain;
 public class ServiceInfo {
 
     private String name;
+    private String version;
 
-    public ServiceInfo(String name) {
+    public ServiceInfo(String name, String version) {
         this.name = name;
+        this.version = version;
     }
 
     public String getName() {
@@ -14,5 +16,13 @@ public class ServiceInfo {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getVersion() {
+        return version;
+    }
+
+    public void setVersion(String version) {
+        this.version = version;
     }
 }

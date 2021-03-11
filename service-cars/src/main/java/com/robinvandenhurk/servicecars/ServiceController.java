@@ -11,7 +11,7 @@ public class ServiceController {
 
     @GetMapping
     public ServiceInfo getServiceInfo() {
-        return new ServiceInfo("service-cars");
+        return new ServiceInfo("service-cars", "0.1");
     }
 
 }
