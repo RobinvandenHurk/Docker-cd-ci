@@ -18,7 +18,7 @@ public class ServiceInfo {
         this.name = name;
     }
 
-    public String getVersion()
+    public String getVersion() {
         return version;
     }
 
